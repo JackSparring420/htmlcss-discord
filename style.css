@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 600px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navigazione{
+    margin: 0 10%;
+    padding: 3%;
+}
+#logo{
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+    margin: auto;
+    width: 75%;
+}
+
+nav li{
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 40px;
+}
+
+#accesso{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+
+#desc{
+    margin: auto;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+#desc h1{
+    font-size: 50px;
+    margin: 30px;
+
+}
+
+#desc p{
+    font-size: 30px;
+    margin: 30px;
+}
+
+#primo_pulsante{
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+
+}
+
+#secondo_pulsante{
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+}
+
+/* inizio main */
+
+/* prima sezione */
+
+section{
+    margin: 5% 15%;
+    font-size: 30px;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prima_img{
+    margin: 3%;
+    float: left;
+}
+
+.prima_desc{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-top: 5%;
+
+}
+
+
+/* seconda sezione */
+
+#seconda_img{
+    margin: 5% 10% 0 0;
+    float: left;
+}
+
+#seconda_desc{
+    margin-left: 3%;
+    width: 20%;
+    display: inline-block;
+    float: left;
+    margin: 5% 10% 0 0;
+
+}
+
+/* terza sezione */
+
+#avventura{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    margin: 0 30%;
+    display: inline-block;
+    width: 50%;
+    padding: 40px 0 50px 50px ;
+   
+}
+
+#item4{
+    margin: 0 15%;
+}
+
+#terzo_pulsante{
+    display: inline-block;
+    background-color: #8ea1e1;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    margin-left: 35%;
+}
+
+/* footer */
+
+#container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: #23272a;
+    padding: 5% 10%;
+    color: white;
+}
+
+#italia{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+
+#italia img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.color{
+    color: #7289da;
+    margin-bottom: 10px;
+}
+
+#colonna_a{
+    display: inline-block;
+    width: 15%;
+    float: left;
+}
+
+.colonna{
+    float: left;
+    width: 20%;
+}
+
+.colonna li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/* logo finale */
+
+#finale{
+    border-top: solid 1px;
+    color: #7289da;
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+#registrati{
+    float: right;
+    background-color: #7289da;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 50px;
+}
