@@ -84,13 +84,17 @@ li a{
 }
 
 /* inizio main */
-
-/* prima sezione */
-
 section{
-    margin: 5% 15%;
+
     font-size: 30px;
 }
+
+.margin{
+    margin: 5% 15%;
+}
+/* prima sezione */
+
+
 
 section::after{
     content: "";
@@ -114,6 +118,9 @@ section::after{
 
 /* seconda sezione */
 
+
+
+
 #seconda_img{
     margin: 5% 10% 0 0;
     float: left;
@@ -128,18 +135,21 @@ section::after{
 
 }
 
-/* terza sezione */
+/* quarta sezione */
 
 #avventura{
     background-image: url(img/stars.svg);
     background-repeat: no-repeat;
-    margin: 0 30%;
+    background-size: contain;
+    margin: 0 20%;
     display: inline-block;
-    width: 50%;
-    padding: 40px 0 50px 50px ;
+    width: 55%;
+    padding: 40px 20px;
    
 }
-
+ #centrato{
+     text-align: center;
+ }
 #item4{
     margin: 0 15%;
 }
@@ -151,7 +161,7 @@ section::after{
     border-radius: 20px;
     font-size: 30px;
     color: white;
-    margin-left: 35%;
+    margin: 0 38%;
 }
 
 /* footer */
@@ -167,11 +177,15 @@ footer{
     padding: 5% 10%;
     color: white;
 }
-
+/* prima colonna */
 #italia{
     width: 30px;
     height: 20px;
     display: inline-block;
+}
+
+#lingua{
+    margin: 20px 0;
 }
 
 #italia img{
@@ -201,6 +215,10 @@ footer{
 }
 
 /* logo finale */
+
+i{
+    margin: 10px 20px 10px 0;
+}
 
 #finale{
     border-top: solid 1px;
